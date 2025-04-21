@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-scales-light: #ffe29e;
+    --color-scales-neutral: #ffce47;
+    --color-scales-dark: #fab300;
+
+    --color-coin-base: #f5d26e;
+    --color-coin-dark: #edbd54;
+    --color-coin-glint: #f9eab6;
+    --color-coin-bottom: #e3aa43;
+    --color-coin-bottom-glint: #eed196;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+#scales {
+    max-height: 25rem;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="scales.css">
+    <script src="animation.js"></script>
+    <title>Moving scales</title>
+</head>
+<body>
+    <figure>
+        <svg version="1.1" viewBox="0 0 560 500" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" id="scales">
+            <!-- modified from https://www.svgrepo.com/svg/204765/balance-law -->
+            <path id="beam" d="m90 85h380" fill="none" stroke="var(--color-scales-dark)" stroke-width="20"/>
+            <path id="fulcrum1" d="m280 0c-16.57 0-30 13.026-30 29.095v470.91h60v-470.91c0-16.068-13.432-29.095-30-29.095z" fill="var(--color-scales-neutral)"/>
+            <path id="fulcrum2" d="m280 0c-16.57 0-30 13.026-30 29.095v470.91h30z" fill="var(--color-scales-light)"/>
+            <path id="tbase1" d="m155 475h250v-38.028c0-20.419-17.459-36.972-38.995-36.972h-172.01c-21.536 0-38.995 16.553-38.995 36.972v38.028z" fill="var(--color-scales-dark)"/>
+            <path id="tbase2" d="m280 400h-86.004c-21.536 0-38.995 16.553-38.995 36.972v38.028h125v-75z" fill="var(--color-scales-neutral)"/>
+            <rect id="bbase1" x="120" y="450" width="320" height="50" fill="var(--color-scales-neutral)"/>
+            <rect id="bbase2" x="120" y="450" width="160" height="50" fill="var(--color-scales-light)"/>
+            <g id="lpan">
+                <path id="ltether" d="m20 200 70-120 70 120" fill="none" stroke="var(--color-scales-dark)" stroke-linejoin="bevel" stroke-width="20"/>
+                <path id="lpan1" d="m90 270c49.705 0 90-40.294 90-90h-180c0 49.705 40.295 90 90 90z" fill="var(--color-scales-neutral)"/>
+                <path id="lpan2" d="m90 180h-90c0 49.705 40.294 90 90 90z" fill="var(--color-scales-light)"/>
+                <g id="lcoins" transform="translate(60 170)"></g>
+            </g>
+            <g id="rpan">
+                <path id="rtether" d="m400 200 70-120 70 120" fill="none" stroke="var(--color-scales-dark)" stroke-linejoin="bevel" stroke-width="20"/>
+                <path id="rpan1" d="m470 270c49.705 0 90-40.294 90-90h-180c0 49.705 40.295 90 90 90z" fill="var(--color-scales-neutral)"/>
+                <path id="rpan2" d="m470 180h-90c0 49.705 40.294 90 90 90z" fill="var(--color-scales-light)"/>
+                <g id="rcoins" transform="translate(440 170)"></g>
+            </g>
+        </svg>
+    </figure>
+</body>
+</html>
